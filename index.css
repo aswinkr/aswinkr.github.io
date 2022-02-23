@@ -1,9 +1,6 @@
-#header{
-    z-index: 2;
-}
 #image{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 #navbarSupportedContent{
     padding-right: 100px;
