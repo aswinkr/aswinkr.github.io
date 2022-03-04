@@ -3,9 +3,6 @@
     margin-left: -28px;
 }
 * { text-decoration: none;}
-body {
-    background-color:#ce3635;
-  }
   @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
   * {
     box-sizing: border-box;
@@ -116,3 +113,97 @@ body {
     background-position: 200% center;
   }
 }
+#SocialMedia1{
+  background-color:#E4405F;
+}
+#SocialMedia2{
+  background-color:#1877F2;
+}
+#SocialMedia3{
+  background-color:#1DA1F2;
+}
+#copyright{
+  color: rgb(5, 5, 5);
+}
+#contact1{
+  text-decoration: underline;
+  color: black;
+}
+#brototype1{
+  color: black;
+  font-style: italic;
+  font-size: 28px;
+}
+#brototype2{
+  font-size:15px;
+  font-style: italic;
+}
+#home-section1{
+  font-size: 18px;
+}
+#home-section-para{
+  font-style: italic;
+  color: white;
+}
+#home-section4{
+  font-style: oblique;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#header{
+  background-color: rgb(88, 88, 214);
+}
+#header1{
+  font-size: 40px;
+  padding-left: 10%;
+  font-style: italic;
+}
+#aboutme1{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+#home-section{
+  background-color:#ce3635;
+}
+
+
