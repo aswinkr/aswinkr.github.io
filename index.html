@@ -31,6 +31,12 @@
                             <a class="nav-link text-white " style="color: white;" href="#contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                               Contact
                             </a> 
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li> 
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#project">Project <span class="sr-only">(current)</span></a>
                         </li>  
                       </ul>
                     </div>
@@ -59,24 +65,25 @@
           </h1>
         </div>
     </section>
-    <section class="p-5 bg-light" id="aboutme"> 
+    <section class="p-5 bg-white" id="about"> 
       <div class="container reveal fade-bottom">
-        <h1 class="text-center" style="text-decoration: underline;" >About Me</h1>
-        <div class="card" id="aboutme1">
+        <h1 class="text-center" style="text-decoration: underline;font-family: serif;" >About</h1>
+        <div class="row">
+        <div class="card bg-light col-md-4 p-5" id="aboutme1">
           <svg style="color: blue;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
           </svg>
           <div class="head" style="font-size: 20px;">Name</div>
               <div style="font-weight: bold;" class="sub-title">Aswin K R</div>
         </div>
-        <div class="card mt-3"  id="aboutme2">
+        <div class="card bg-light col-md-4 p-5 "  id="aboutme2">
           <svg style="color: blue;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
           </svg>
           <div class="head" style="font-size: 20px;">Location</div>
               <div style="font-weight: bold;" class="sub-title">Guruvayoor,Thrissur,Kerala,India</div>
         </div>
-        <div class="card mt-3"  id="aboutme3">
+        <div class="card bg-light col-md-4 p-5"  id="aboutme3">
           <svg style="color: blue;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
           </svg>
@@ -84,29 +91,46 @@
               <div style="font-weight: bold;" class="sub-title">aswirajkallayil@gamil.com</div>
         </div>
       </div>
+      </div>
     </section>
-    <section class="p-5 bg-white text-center" id="project">
-      <div class="slideshow-container">
-        <h1 style="text-decoration: underline;">Project</h1>
-        <div class="mySlides fade">
-          <img src="fbpage.png" style="width:100%">
-          <div ></div>
+    <section class="p-5 bg-light text-center" id="project">
+      <div class="slideshow-container reveal fade-right">
+        <h1 style="text-decoration: underline;font-family: serif;">Project</h1>
+        <div class="row">
+        <div class="card col-12 col-md-12" style="width:100%;">
+          <img class="card-img-top pt-3" src="fbpage.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><i>Facebook Page</i></h5>
+          </div>
         </div>
-        
-        <div class="mySlides fade">
-          <img src="calc.png" style="width:100%">
-          <div ></div>
+        <div class="card mt-5 text-center col-12 col-md-12" style="width: 100%;">
+          <img class="card-img-top pt-3" src="calc.png" alt="Card image ">
+          <div class="card-body">
+            <h5 class="card-title"><i>Calculator Web</i></h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link"></a>
+          </div>
+          </div>
+        <div class="card mt-5 text-center col-12 col-md-3" style="width: 30%;">
+          <img class="card-img-top pt-3" src="calcapp.jpg" alt="Card image ">
+          <div class="card-body">
+            <h5 class="card-title"><i>Calculator App(Beta)</i></h5>
+            <p class="card-text">The App Is In Development</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link"></a>
+          </div>
         </div>
         </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span>  
-        </div>
+      </div>
+      </div>
     </section>
-    <section class="p-5 bg-light text-center" id="brototype">
-      <div class="container  reveal fade-right">
+    <section class="p-5 bg-white text-center" id="brototype">
+      <div class="container  reveal fade-left">
         <h1 class="text-center mt-2 col-12">
           <a id="brototype1" href="" class="typewrite" data-period="100" data-type='["IF YOU ARE INTERESTED IN CODING....."," YOU CAN LEARN IT FOR FREE HERE...."]'>
             <span class="wrap"></span>
@@ -130,8 +154,8 @@
         </div>
       </div>
     </section>
-    <section class="p-5 bg-white" id="contact">
-      <div class="container reveal fade-left">
+    <section class="p-5 bg-light" id="contact">
+      <div class="container reveal fade-right">
         <h1 class="text-center" id="contact1">Contact</h1>
         <div class="row ">
           <div class="col-md-12">
