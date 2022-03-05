@@ -164,5 +164,8 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+#home-section{
+  padding: 6em;
+  padding-top: 8em ;
+}
 
